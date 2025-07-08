@@ -1,3 +1,22 @@
-*{
-    margin: 5px;
+nav h3 a{
+  font-family: "Baloo Bhai 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  text-decoration: none;
+  color: #181818;
+}
+nav h3 a span{
+    color: #FD6E0A;
+}
+ul a{
+    color: #181818;
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+.navbar{
+    display: flex;
+    
 }
