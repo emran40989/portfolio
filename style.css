@@ -10,12 +10,11 @@
 /* navigation bar  */
 /* side bar  */
 nav div img{
-    height: 90vh;
+    height: 774px;
     margin: 20% 0;
 }
 
 /* home button  */
-
 nav h3 a {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -27,7 +26,6 @@ nav h3 a {
     margin: 0 10px;
     color: #181818;
     font-size: 45px;
-    
 }
 
 nav h3 a span {
@@ -35,6 +33,12 @@ nav h3 a span {
 }
 
 /* nav bar links */
+.navbar {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin: 0 100px;
+}
 ul a {
     color: #474747;
     text-decoration: none;
@@ -45,11 +49,6 @@ nav ul li {
     list-style: none;
 }
 
-.navbar {
-    display: flex;
-    align-items:flex-start
-}
-
 .nav-links {
     display: flex;
     align-items: center;
@@ -58,7 +57,7 @@ nav ul li {
 }
 
 /* nav bar button */
-nav button {
+.button{
     border: none;
     background-color: #FD6E0A;
     color: white;
@@ -74,4 +73,22 @@ nav button {
 nav button:hover{
     background-color: darkorange;
     color: #181818;
+}
+
+/* banner */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 35px 0 200px;
+    background-image: url(images/developer.png), url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 }
