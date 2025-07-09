@@ -1,6 +1,3 @@
-/* navigation bar  */
-/* home button  */
-
 *{
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -9,6 +6,16 @@
         "wdth" 100;
     color: #181818;
 }
+
+/* navigation bar  */
+/* side bar  */
+nav div img{
+    height: 90vh;
+    margin: 20% 0;
+}
+
+/* home button  */
+
 nav h3 a {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -17,7 +24,7 @@ nav h3 a {
     font-variation-settings:
         "wdth" 100;
     text-decoration: none;
-    margin: 0 20px;
+    margin: 0 10px;
     color: #181818;
     font-size: 45px;
     
@@ -29,8 +36,9 @@ nav h3 a span {
 
 /* nav bar links */
 ul a {
-    color: #181818;
+    color: #474747;
     text-decoration: none;
+    font-size: 20px;
 }
 
 nav ul li {
@@ -39,6 +47,7 @@ nav ul li {
 
 .navbar {
     display: flex;
+    align-items:flex-start
 }
 
 .nav-links {
