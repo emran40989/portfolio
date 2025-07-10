@@ -62,15 +62,35 @@ nav ul li {
     background-color: #FD6E0A;
     color: white;
     padding: 10px 20px;
-    max-width: 150px;
-    max-height: 64px;
+    min-width: 150px;
+    min-height: 64px;
     border-radius: 5px;
     font-size: 20px;
     font-weight: 700;
     cursor: pointer;
+    margin: 0 10px;
+}
+.button2{
+    border: none;
+    background-color: #FD6E0A;
+    color: white;
+    padding: 10px 20px;
+    min-width: 150px;
+    min-height: 44px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 0 10px;
 }
 
-nav button:hover{
+.btn-contact{
+    background-color: aliceblue;
+    border: 2px solid #FD6E0A;
+    color:#FD6E0A;
+    font-weight: 700;
+}
+button:hover{
     background-color: darkorange;
     color: #181818;
 }
@@ -86,9 +106,49 @@ nav button:hover{
 .banner{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: 0px 35px 0 200px;
+    margin: 0 35px 0 200px;
+    /* align-items: center; */
+    /* margin: 0px 35px 0 200px;
     background-image: url(images/developer.png), url(images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: top left, bottom right; */
+}
+
+
+
+p{
+    font-size: 15px;
+    text-align: justify;
+    margin: 20px 10px;
+}
+
+div h3{
+    font-size: 45px;
+    font-weight: 500;
+    margin: 0;
+}
+
+div h1{
+    font-size: 70px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+
+
+.banner-image img{
+    height: 450px;
+}
+
+.header{
+    background-image: url('images/developer.png');
+    background-size: 70px;
+    margin: 5px 20px;
+    background-repeat: no-repeat;
+    height: 600px;
+        /* background-size:contain, auto; */
+}
+
+.header{
+    background-color: #fffbc2;
 }
